@@ -1,0 +1,9 @@
+.section_narrow {
+  max-width: 1032px;
+  padding: 0 24px;
+}
+@media screen and (max-width: 720px) {
+  .section_narrow {
+    padding: 0;
+  }
+}
