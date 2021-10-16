@@ -1,0 +1,13 @@
+.copyrights {
+  margin-top: 92px;
+}
+@media screen and (max-width: 1000px) {
+  .copyrights {
+    margin-top: 88px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .copyrights {
+    margin-top: 64px;
+  }
+}
