@@ -4,6 +4,7 @@
 }
 @media screen and (max-width: 720px) {
   .section_narrow {
+    max-width: 720px;
     padding: 0;
   }
 }

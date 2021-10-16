@@ -5,4 +5,16 @@
   text-transform: uppercase;
   color: #aaaaaa;
   margin: 0;
+  grid-area: text;
+}
+@media screen and (max-width: 720px) {
+  .place__artist-label {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -20,9 +20,16 @@
 
 @media screen and (max-width: 720px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 48px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0;
+    grid-template-areas:
+      "title"
+      "artist"
+      "name"
+      "image"
+      "text"
+      "button";
   }
   .place:nth-of-type(5) {
     margin-bottom: 0;

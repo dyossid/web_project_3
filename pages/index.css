@@ -34,48 +34,8 @@
 @import url("../blocks/section/section.css");
 @import url("../blocks/section/_narrow/section_narrow.css");
 
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
+
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
-
-.photo-grid {
-  margin: 0 48px 92px 48px;
-  max-width: 1184px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 16px 16px;
-}
-
-@media screen and (max-width: 1200px) {
-  .photo-grid {
-      margin 0 auto;
-    width: 720px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 16px 16px;
-    margin-bottom: 88px;
-  }
-}
-@media screen and (max-width: 720px) {
-    .photo-grid {
-        margin 0 auto;
-      width: 288px;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto;
-      grid-gap: 12px 12px;
-      margin-bottom: 64px;
-    }
-  }
-.photo-grid__item {
-    width: 284px;
-  }
-  @media screen and (max-width: 1200px) {
-    .photo-grid__item {
-        width: 352px;
-    }
-  }
-  @media screen and (max-width: 720px) {
-    .photo-grid__item {
-        width: 288px;
-    }
-  }

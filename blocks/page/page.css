@@ -9,7 +9,6 @@
   align-items: center;
   min-width: 320px;
   max-width: none;
-  overflow-x: hidden;
 }
 @media screen and (max-width: 720px) {
   .page {

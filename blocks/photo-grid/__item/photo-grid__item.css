@@ -1,0 +1,13 @@
+.photo-grid__item {
+  width: 284px;
+}
+@media screen and (max-width: 1200px) {
+  .photo-grid__item {
+    width: 352px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .photo-grid__item {
+    width: 288px;
+  }
+}
