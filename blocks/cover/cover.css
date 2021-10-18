@@ -36,14 +36,13 @@
   .cover {
     min-height: 746px;
     max-width: 100%;
-    margin-top: 64px;
     background-size: 100% 100%;
   }
 }
 @media screen and (max-width: 720px) {
   .cover {
     width: 100%;
-    height: calc((100vw - 64px) * 0.5625);
+    height: calc(100vw * 0.5625);
   }
 }
 @media screen and (max-width: 500px) {
