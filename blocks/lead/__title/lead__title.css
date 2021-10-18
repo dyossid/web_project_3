@@ -10,15 +10,11 @@
 @media screen and (max-width: 1000px) {
   .lead__title {
     max-width: 720px;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
   }
 }
 @media screen and (max-width: 720px) {
   .lead__title {
     max-width: 288px;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
   }

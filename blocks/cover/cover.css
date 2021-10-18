@@ -6,7 +6,62 @@
   text-align: center;
   background-image: url("../../images/__background.png");
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  z-index: -1;
+}
+.cover:hover::before {
+  opacity: 0.8;
+}
+@media screen and (max-width: 1000px) {
+  .cover {
+    min-height: 746px;
+    max-width: 100%;
+    margin-top: 64px;
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .cover {
+    width: 100%;
+    height: calc((100vw - 64px) * 0.5625);
+  }
+}
+@media screen and (max-width: 500px) {
+  .cover {
+    min-height: 254px;
+  }
+}
+
+/* THIS IS THE CODE BEFORE YOUR COMMENTS IF IT DOES NOT WORK YOU ARE WELCOME TO CHANGE IT BACK */
+/*.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../../images/__background.png");
+  max-width: 1184px;
+  max-height: 740px;
   width: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -66,3 +121,4 @@
     height: 254px;
   }
 }
+*/

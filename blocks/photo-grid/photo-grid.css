@@ -4,15 +4,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 16px 16px;
+  gap: 16px 16px;
 }
 @media screen and (max-width: 1200px) {
   .photo-grid {
     margin: 0 auto;
     width: 720px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 16px 16px;
     margin-bottom: 88px;
   }
 }
@@ -21,7 +19,6 @@
     margin: 0;
     max-width: 288px;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     grid-gap: 12px 12px;
     margin-bottom: 64px;
   }

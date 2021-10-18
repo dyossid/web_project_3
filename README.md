@@ -11,4 +11,4 @@ in this project we learned the following:
 - media queries
 - calc functions
 
-You can always stay updated by following my [Repo](https://github.com/dyossid/)
+You can always stay updated by following my [Repo](https://github.com/dyossid/web_project_3)

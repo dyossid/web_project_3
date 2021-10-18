@@ -4,7 +4,7 @@
     "title artist"
     "image text"
     "button text";
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   grid-template-columns: 460px 1fr;
   grid-template-rows: min-content min-content 1fr;
   margin-bottom: 80px;
@@ -13,16 +13,17 @@
 @media screen and (max-width: 1000px) {
   .place {
     grid-template-columns: 340px 1fr;
-    grid-gap: 48px 28px;
+    gap: 48px 28px;
     margin-bottom: 72px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .place {
+    padding: 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 0;
+    gap: 0;
     grid-template-areas:
       "title"
       "artist"
@@ -31,7 +32,7 @@
       "text"
       "button";
   }
-  .place:nth-of-type(5) {
+  .place:last-of-type {
     margin-bottom: 0;
   }
 }
