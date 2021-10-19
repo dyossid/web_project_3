@@ -6,7 +6,7 @@
     "button text";
   max-width: 987px;
   gap: 48px 40px;
-  grid-template-columns: 415px 1fr;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: min-content min-content 1fr;
   margin-bottom: 90px;
 }
