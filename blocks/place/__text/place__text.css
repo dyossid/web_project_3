@@ -3,3 +3,10 @@
   font-size: 18px;
   line-height: 163%;
 }
+@media screen and (max-width: 720px) {
+  .place__text {
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
