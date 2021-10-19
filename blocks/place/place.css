@@ -6,7 +6,7 @@
     "button text";
   max-width: 987px;
   gap: 48px 40px;
-  grid-template-columns: 415px 1fr;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: min-content min-content 1fr;
   margin-bottom: 90px;
 }
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 720px) {
   .place {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     padding: 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
