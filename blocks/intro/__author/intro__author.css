@@ -5,3 +5,8 @@
   text-align: end;
   margin: 10px 0 32px 0;
 }
+@media screen and (max-width: 1000px) {
+  .intro__author {
+    max-width: 720px;
+  }
+}
