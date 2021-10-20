@@ -11,4 +11,6 @@ in this project we learned the following:
 - media queries
 - calc functions
 
+Go to [website](https://dyossid.github.io/web_project_3/)
+
 You can always stay updated by following my [Repo](https://github.com/dyossid/web_project_3)
